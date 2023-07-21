@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Exec=/home/flamingo4/Desktop/steve/run_sample_test.sh
+Name=sample_test
+Icon=/home/flamingo4/desktop_icon.ico
