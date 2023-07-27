@@ -1,2 +1,2 @@
-# flamingo4_TErelay
+# TErelay
 files to run TE relays
