@@ -1,6 +1,6 @@
 # TErelay
 
-Overview: The procedure outlined below creates a factory stand instance which will automate PL1.0 TE relay cycling.  Factory stand communicates with the PL1.0 controler board, pnXXX, to control the relays and output a log to give status.  
+Overview: The procedure outlined below creates a factory stand instance which will automate PL1.0 TE relay cycling.  Factory stand communicates with the PL1.0 controler board, pnXXX, to control the relays and output a log to give status.  For each file you modify make sure you give the correct path name and or file name.  else program will not work!
 
 list of files:
 1.  sample_test.desktop - file to be placed on the desktop which launches factory stand; this file needs to be executable and launchable, use linux command chmod +x FILENAME and then right click on icon to specify "launchable".
