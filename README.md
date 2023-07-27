@@ -3,8 +3,8 @@
 Overview: The procedure outlined below creates a factory stand instance which will automate PL1.0 TE relay cycling.  Factory stand communicates with the PL1.0 controler board, pnXXX, to control the relays and output a log to give status.  
 
 list of files:
-1.  sample_test.desktop - file to be placed on the desktop which launches factory stand; it can either be GUI or CLI interface.  This is specified in the xxx.sh file
-2.  xxx.sh - script file which launches factory stand and reads your 
+1.  sample_test.desktop - file to be placed on the desktop which launches factory stand; this file needs to be executable and launchable, use linux command chmod +x FILENAME and then right click on icon to specify "launchable".
+2.  xxx.sh - script file which launches factory stand and reads your class file, xxx.py file.  Factory stand can either be GUI or CLI interface.  This is specified in the xxx.sh file.  
 3.  global.config - unique parameters for the test; specify number of channels ... 
 
 Procedure: 
